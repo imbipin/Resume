@@ -28,9 +28,53 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			});
 		</script>
+	<style>
+		.colorPanel {
+    margin: 0px;
+    padding: 5px;
+    position: fixed;
+    z-index: 100;
+    min-width: 20px;
+    background-color: #2c3e50;
+    top: 40%;
+}
+		#cpToggle {
+    display: block;
+    height: 20px;
+    width: 20px;
+    background-image: url(images/picker.png);
+    background-size: cover;
+}
+		.colorPanel ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: none;
+}
+		.colorPanel ul li {
+    display: block;
+    margin-top: 5px;
+}
+		.colorPanel ul a {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: #95a5a6 1px solid;
+}
+	</style>
  <!---- start-smoth-scrolling---->
 </head>
 	<body>
+		<div id="colorPanel" class="colorPanel">
+        	<a id="cpToggle" href="#"></a>
+        	<ul class="colorPicker"style="display: none;">
+				<li><a href="#" id="css-style"class="linka" style="background-color: #009688;"></a></li>
+				<li><a href="#" id="css-blue" class="linka" style="background-color: #5DBCD2;"></a></li>
+				<li><a href="#" id="css-pink" class="linka" style="background-color: #FE517F;"></a></li>
+				<li><a href="#" id="css-teal" class="linka" style="background-color: #009688;"></a></li>
+				<li><a href="#" id="css-red" class="linka" style="background-color: #f44336;"></a></li>
+			</ul>
+    </div>
 		<!-- container -->
 			<!-- header -->
 			<div id="home" class="header">
@@ -871,6 +915,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											easingType: 'linear' 
 								 		};
 										*/
+										 var panelDiv = this;
+		
+										$('#cpToggle').click(function(e){
+											e.preventDefault();
+											 $('.colorPicker',panelDiv).slideToggle();
+										});
+										// default stylsheet
+										$("#css-style").click(function() {
+											//var href = $('#mainStyle').attr('href');
+											$('#mainStyle').attr({href : "css/style.css"});
+										});
+
+										// pink stylesheet
+										$("#css-pink").click(function() {
+										$('#mainStyle').attr({href : "css/themePink.css"});
+										});
+
+										// blue stylesheet
+										$("#css-blue").click(function() {
+										$('#mainStyle').attr({href : "css/themeBlue.css"});
+										});
+
+										// teal stylesheet
+										$("#css-teal").click(function() {
+										$('#mainStyle').attr({href : "css/themeTeal.css"});
+										});
+										// red stylesheet
+										$("#css-red").click(function() {
+										$('#mainStyle').attr({href : "css/themeRed.css"});
+										});
 										
 										$().UItoTop({ easingType: 'easeOutQuart' });
 										
