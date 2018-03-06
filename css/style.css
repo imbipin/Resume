@@ -1,6 +1,6 @@
 
 html, body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 100%;
   	background: #FFf;
 }
@@ -12,7 +12,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 body h1,h2,h3,h4,h5,h6{
-	    font-family: 'Asap', sans-serif;
+	    font-family: 'Raleway', sans-serif;
 }
 /*-- header --*/
 #home {
@@ -60,7 +60,7 @@ body h1,h2,h3,h4,h5,h6{
     text-decoration: none;
     padding: 10px 0;
 	text-transform:uppercase;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .navigation-right ul li.active a{
 	    color: #009688;
@@ -75,7 +75,7 @@ span.menu{
 	color: #797878;
 	text-shadow: none;
 	position: relative;  
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .link-effect-3 a::before {
 	position: absolute;
@@ -482,13 +482,13 @@ span.border.one:after {
 	color: #1b242f;
     font-size: 2em;
     font-weight:300;
-     font-family: 'Open Sans', sans-serif;
+     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0 0 0.2em 0;
 }
 .service-head h3 span{
 	font-weight:700;
- font-family: 'Asap', sans-serif;
+ font-family: 'Raleway', sans-serif;
 }
 .wthree_about_left,.wthree_about_right{
 	padding:0;
@@ -781,7 +781,7 @@ ul.year li:nth-child(5){
 .portfolio-head h2{
 	color: #202020;
 	font-size: 1.8em;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin:0;
 	padding:0;
 }
@@ -828,7 +828,7 @@ ul.year li:nth-child(5){
 	-o-border-radius: 0.3em;
 	-ms-border-radius: 0.3em;
 	margin-top:8em;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 .portfolio-grid-pic-caption a:hover{
 	border-color:#202020;
@@ -840,7 +840,7 @@ ul.year li:nth-child(5){
 .portfolio-grid-info h5{
 	color: #202020;
 	font-size: 1.4em;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	padding: 0.875em 0;
 	margin: 0;
 }
@@ -872,7 +872,7 @@ ul.year li:nth-child(5){
 .feedback-grid h4{
 	color:#2ec06c;
 	font-weight:700;
-	font-family: 'Asap', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size:1.3em;
 	margin:1em 0 0 0;
 }
